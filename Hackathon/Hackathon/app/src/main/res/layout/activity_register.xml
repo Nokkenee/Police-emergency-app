@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Full Name -->
+    <EditText
+        android:id="@+id/editFamilyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Фамилия"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editSurName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Отчество (Не обязательно)"
+        android:inputType="textPersonName" />
+
+    <!-- Birthdate (Now opens DatePickerDialog) -->
+    <EditText
+        android:id="@+id/editBirthDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Дата рождения"
+        android:focusable="false"
+        android:clickable="true"
+        android:inputType="none" />
+
+    <!-- Phone Number -->
+    <EditText
+        android:id="@+id/editPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Номер телефона"
+        android:inputType="phone" />
+
+    <!-- Address -->
+    <EditText
+        android:id="@+id/editAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Адрес проживания"
+        android:inputType="text" />
+
+    <!-- ID Number -->
+    <EditText
+        android:id="@+id/editIdNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ИИН"
+        android:inputType="number" />
+
+    <!-- Gender Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Пол"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp" />
+
+    <!-- Radio Buttons for Gender -->
+    <RadioGroup
+        android:id="@+id/radioGroupUserType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Мужской"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radioFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Женский" />
+    </RadioGroup>
+
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+</LinearLayout>

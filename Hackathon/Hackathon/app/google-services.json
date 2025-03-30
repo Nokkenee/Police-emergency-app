@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "824687640921",
+    "firebase_url": "https://hacka-e4b8c-default-rtdb.firebaseio.com",
+    "project_id": "hacka-e4b8c",
+    "storage_bucket": "hacka-e4b8c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824687640921:android:813580f2a19d08fc86cc48",
+        "android_client_info": {
+          "package_name": "com.example.hackathon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1CkewpgRq5llwqMiv4l3PnfkhmE-YyEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

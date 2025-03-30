@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#E95D4B</color> <!-- Red accent -->
+    <color name="background">#010101</color> <!-- Dark background -->
+    <color name="background2">#201926</color> <!-- Dark background -->
+    <color name="background3">#4B4F57</color> <!-- Dark background -->
+    <color name="textColor">#F2F2F2</color> <!-- Light text -->
+    <color name="acceptedColor">#737446</color> <!-- Accepted text -->
+    <color name="textColor2">#595959</color> <!-- Accepted text -->
+</resources>
