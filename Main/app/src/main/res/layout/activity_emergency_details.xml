@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background">
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:id="@+id/titleDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вызов: "
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/textFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ФИО: "
+        android:textSize="24sp"
+        android:textColor="@color/textColor"
+        android:padding="6dp"/>
+
+    <TextView
+        android:id="@+id/textIdNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ИИН: "
+        android:textSize="18sp"
+        android:textColor="@color/textColor"
+        android:padding="6dp"/>
+
+    <TextView
+        android:id="@+id/textPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Номер телефона: "
+        android:textSize="18sp"
+        android:textColor="@color/textColor"
+        android:padding="6dp"/>
+
+    <TextView
+        android:id="@+id/textEmergancyDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сообщение потерпевшего:"
+        android:textSize="18sp"
+        android:textColor="@color/textColor"
+        android:padding="6dp"
+        android:visibility="gone"/>
+
+
+    <TextView
+        android:id="@+id/mapLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Последнее местоположение:"
+        android:textSize="18sp"
+        android:textColor="@color/textColor"
+        android:padding="6dp"/>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+    <Button
+        android:textStyle="bold"
+        android:id="@+id/btnEmergencyDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_background"
+        android:gravity="center"
+        android:padding="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Открыть чат"
+        android:typeface="normal"
+        android:textColor="@color/textColor"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:visibility="visible"
+        android:drawablePadding="20dp" />
+
+</LinearLayout>
+
